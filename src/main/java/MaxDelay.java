@@ -197,11 +197,6 @@ public class MaxDelay {
             FlightKey b = (FlightKey)y;
 
             return a.compareTo(b);
-
-//            if(a.flightNumber.toString().equals(b.flightNumber.toString()) && a.year.toString().equals(b.year.toString()))
-//                return 0;
-//            else
-//                return 1;
         }
     }
 }
